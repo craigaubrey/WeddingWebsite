@@ -1,7 +1,13 @@
 // Repolace with your Firebase project credentials
 var firebaseConfig = {
-	projectId: "website-f655d",
-	storageBucket: "gs://website-f655d.appspot.com"
+    apiKey: "AIzaSyAksCn24tQ1Uf50gtQRvqFi6cDVy70UmgM",
+    authDomain: "website-f655d.firebaseapp.com",
+    databaseURL: "https://website-f655d-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "website-f655d",
+    storageBucket: "website-f655d.appspot.com",
+    messagingSenderId: "48213096325",
+    appId: "1:48213096325:web:2d7e36f869d7c63276b6ec",
+    measurementId: "G-SHEG6RX6F5"
 };
 
 //Initialize Firebase
