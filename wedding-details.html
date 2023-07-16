@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Our Wedding - Wedding Detials
+		</title>
+		<!-- Include CSS Stylesheets -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>
+				Our Wedding
+			</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a href="wedding-details.html">Wedding</a>
+					</li>
+					<li>
+						<a href="image-submissions.html">Image Submissions</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section class="wedding-details-page">
+			<h2>
+				Wedding details
+			</h2>
+			<div id="map"></div>
+			<!-- other wedding details content -->
+		</section>
+		
+		<!-- Include the Google Maps API with your API Key -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAznbVy74C4UWG_IT0oh096mSKK-RP9yT4"></script>
+		<script>
+			function initMap() {
+				//Create a map object and specify the center and zoom level
+				var map = new google.maps.Map(document.getElementById("map"), {
+					center: { lat 36.1164, lng: -115.1738 },
+					zoom: 14,
+				});
+				
+				// add a marker to the Map
+				var marker = new google.maps.Marker({
+					position: { lat 36.1164, lng: -115.1738 },
+					map: map,
+					title: "Wedding Location",
+				});
+			}
+			
+			// Initialize the map
+			initMap();
+		</script>
+	</body>
+</html>
+					

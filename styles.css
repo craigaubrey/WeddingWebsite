@@ -1,0 +1,47 @@
+/* styles.css */
+/* Add your custom styles here */
+/* Example styles for the header */
+header {
+	background-color: #f9f9f9;
+	padding: 20px;
+	text-align: center;
+}
+header h1 {
+	color: #333;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+/* Example stles for the slideshow */
+.slideshow {
+/*example */
+}
+.home-page {
+	
+}
+
+.gallery-page {
+	
+}
+
+.wedding-details-page {
+	
+}
+
+.reception-details-page {
+	
+}
+
+.image-submission {
+	
+}

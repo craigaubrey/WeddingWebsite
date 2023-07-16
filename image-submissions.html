@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Our Wedding - Image Submission
+		</title>
+		<!-- Include CSS Stylesheets -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>
+				Our Wedding
+			</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a href="wedding-details.html">Wedding</a>
+					</li>
+					<li>
+						<a href="image-submissions.html">Image Submissions</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Include firebase Javascript SDK -->
+			<script src="https://www.gstatic.com/firebasejs/12.4.4/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/12.4.4/firebase-storage.js"></script>
+			
+			<!-- Include javascript file that handles image upload -->
+			<script src="image-upload.js"></script>
+		</header>
+		
+		<section class="image-submission-page">
+			<h2>
+				Image Submission
+			</h2>
+			<p>
+				Share your memories with us! Submit your wedding photos using the form below:
+			</p>
+			
+			<form id="imageUploadForm">
+				<label for="uploaderName">Uploader's Name:<label>
+				<input type="text" id="uploaderName" required>
+				
+				<label for=imageInput">Select Images:</label>
+				<input type="file" id="imageInput" accept="image/*" multiple required>
+				
+				<button type="button" id="uploadButton">Upload</button>
+			</form>
+		</section>
+	</body>
+</html>
+		
